@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "air-p",
+    "slug": "air-p",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "air-p"
+}
