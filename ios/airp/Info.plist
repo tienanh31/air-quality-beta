@@ -53,5 +53,7 @@
   <string>UIStatusBarStyleDefault</string>
   <key>CADisableMinimumFrameDurationOnPhone</key>
   <true/>
+   <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>AIzaSyAjs3nWfI8gdj9O2SWcDoEZmApmKMW8mgc</string>
 </dict>
 </plist>

@@ -1,11 +1,35 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(air-p) to use your location."
+        }
+      ]
+    ],
     "name": "air-p",
     "slug": "air-p",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
+    
+  },
+  "ios": {
+    "config": {
+      "googleMapsApiKey": "AIzaSyAjs3nWfI8gdj9O2SWcDoEZmApmKMW8mgc"
+    },
+    "infoPlist":{
+      "NSLocationUsageDescription":"App requires location even when the App is backgrounded.",
+      "NSLocationWhenInUseUsageDescription":"App requires location even when the App is backgrounded.",
+      "NSLocationAlwaysUsageDescription":"App requires location even when the App is backgrounded.",
+      "NSLocationAlwaysAndWhenInUseUsageDescription":"App requires location even when the App is backgrounded.",
+      "UIBackgroundModes": [
+        "location",
+        "fetch"
+      ]
+    }
   },
   "name": "air-p"
 }
